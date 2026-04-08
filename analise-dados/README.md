@@ -82,6 +82,8 @@ O sistema cria automaticamente um arquivo:
 ```
 data/relatorio.csv
 ```
+## Visualização
 
+![Gráfico de vendas](img/grafico.png)
 com os dados processados.
 

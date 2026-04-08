@@ -84,6 +84,6 @@ data/relatorio.csv
 ```
 ## Visualização
 
-![Gráfico de vendas](img/grafico.png)
+![Gráfico de vendas](img/grafico.png.png)
 com os dados processados.
 

@@ -9,3 +9,15 @@ mais_vendido = df.groupby('produto')['quantidade'].sum().idxmax()
 
 print("Faturamento total:", faturamento)
 print("Produto mais vendido:", mais_vendido)
+
+import matplotlib.pyplot as plt
+
+vendas = df.groupby('produto')['quantidade'].sum()
+
+vendas.plot(kind='bar')
+
+plt.title('Produtos mais vendidos')
+plt.xlabel('Produto')
+plt.ylabel('Quantidade')
+
+plt.show()
